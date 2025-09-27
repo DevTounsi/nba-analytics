@@ -8,7 +8,6 @@ Project data science : analysis and prediction NBA
 Ce projet vise à analyser la carrière de **Kevin Durant** à travers ses statistiques NBA, afin de :
 
 * Étudier l’évolution de ses performances au fil des saisons.
-* Comparer ses performances en **saison régulière** et en **playoffs**.
 * Visualiser son style de jeu (shot charts, efficacité par zone de tir).
 * Mesurer son impact dans différentes équipes (OKC, Warriors, Nets, Suns).
 * Construire des modèles de prédiction (points par match, efficacité, etc.).
@@ -96,7 +95,7 @@ nba-analytics/
 1. Cloner le dépôt :
 
 ```bash
-git clone https://github.com/ton-compte/nba-analytics.git
+git clone https://github.com/DevTounsi/nba-analytics.git
 cd nba-analytics
 ```
 
@@ -135,4 +134,4 @@ streamlit run app/app.py
 
 ## ✨ Auteur
 
-Projet réalisé par *\[Ton Nom]* – Portfolio Data Science / NBA Analytics.
+Projet réalisé par *\AMINI AbdAllah* – Portfolio Data Science / NBA Analytics.
