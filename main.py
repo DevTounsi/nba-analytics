@@ -12,10 +12,7 @@ print(career)
 # Écriture dans le fichier test.json
 with open('test.json', 'w') as f:
     json.dump(json.loads(career_json), f, indent=4)'''
-player_id = 201142  # Kevin Durant
-career = pcs.PlayerCareerStats(player_id=player_id)
+sc_player = players.find_players_by_first_name("Durant")
 
-# Correct : get_data_frames()
-df = career.get_data_frames()[1]
-print(df.columns)
-print(df.head(10))
+
+print(sc_player)
